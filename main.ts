@@ -15,7 +15,7 @@ const db = await client.db('Nombre Base de Datos');
 
 //const xCollection = db.collection<>('nombreColeccion');kids
 
-const apiNinjaKey = Deno.env.get('apiNinjaKey')
+const apiNinjaKey = Deno.env.get("apiNinjaKey")
 
 if (!apiNinjaKey) {
   console.error('Api key inválida');
